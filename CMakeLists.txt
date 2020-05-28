@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.2)
 if(DEFINED ENV{TRAVIS_BUILD_NUMBER)
     set(PATCH $ENV{TRAVIS_BUILD_NUMBER})
 else()
-    set(PATCH 1)
+    set(PATCH 20)
 endif()
 
 project(ip_filter VERSION 0.0.${PATCH})
