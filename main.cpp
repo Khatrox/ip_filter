@@ -275,22 +275,14 @@ int main(int argc, char const *argv[])
             ip_pool.push_back(split(v.at(0), '.'));
         }
 
-        std::cout << "=============REVERSE_SORT_START=============\n";
         ReverseLexGraphSort(ip_pool,ESortOctetNumber::FIRST);
         ShowIpPool(ip_pool);
-        std::cout << "=============REVERSE_END_START=============\n";
 
-        std::cout << "=============FILTER_1_START=============\n";
         Filter(ip_pool,1);
-        std::cout << "=============FILTER_1_END=============\n";
 
-        std::cout << "=============FILTER_46_70_START=============\n";
         Filter(ip_pool,46,70);
-        std::cout << "=============FILTER_46_70_END=============\n";
 
-        std::cout << "=============FILTER_ANY_START=============\n";
         FilterAny(ip_pool,46);
-        std::cout << "=============FILTER_ANY_END=============\n";
 
     }
     catch(const std::exception &e)
