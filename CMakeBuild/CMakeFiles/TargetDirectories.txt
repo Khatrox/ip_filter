@@ -1,0 +1,4 @@
+C:/Users/xMellox/CLionProjects/ip_filter/CMakeBuild/CMakeFiles/ip_filter.dir
+C:/Users/xMellox/CLionProjects/ip_filter/CMakeBuild/CMakeFiles/INSTALL.dir
+C:/Users/xMellox/CLionProjects/ip_filter/CMakeBuild/CMakeFiles/ALL_BUILD.dir
+C:/Users/xMellox/CLionProjects/ip_filter/CMakeBuild/CMakeFiles/ZERO_CHECK.dir
