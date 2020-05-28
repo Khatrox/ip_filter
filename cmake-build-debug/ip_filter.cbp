@@ -17,6 +17,16 @@
 					<DistClean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="package">
+				<Option working_dir="C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="ip_filter">
 				<Option output="C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/ip_filter.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug"/>
@@ -59,11 +69,21 @@
 					<DistClean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="install/local">
+			<Target title="install/strip">
 				<Option working_dir="C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<Build command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="package_source">
+				<Option working_dir="C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
 					<CompileFile command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -74,6 +94,16 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
 					<CompileFile command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
@@ -104,16 +134,6 @@
 				<Option type="4"/>
 				<MakeCommands>
 					<Build command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="install/strip">
-				<Option working_dir="C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
 					<CompileFile command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 					<DistClean command="D:/Mingw_/bin/mingw32-make.exe -f &quot;C:/Users/xMellox/CLionProjects/ip_filter/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
